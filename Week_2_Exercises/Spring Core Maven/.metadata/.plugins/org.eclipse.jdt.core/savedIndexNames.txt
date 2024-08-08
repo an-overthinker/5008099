@@ -1,0 +1,14 @@
+INDEX VERSION 1.134+D:\DNP3\Week 2_Spring Core_Maven\.metadata\.plugins\org.eclipse.jdt.core
+3094277567.index
+1865797976.index
+3749981110.index
+367123428.index
+1324520237.index
+1433602668.index
+1464476938.index
+2977822068.index
+1936508275.index
+1368561774.index
+3822682520.index
+468916598.index
+3733426542.index

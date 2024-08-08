@@ -1,0 +1,22 @@
+package com.library.service;
+
+import com.library.repository.BookRepository;
+
+public class BookService {
+	
+	private BookRepository BR;
+	
+	public void setBR(BookRepository bR) {
+		System.out.println("Inside BookService : Setting BookRepository : Setter Dependency Injection");
+		this.BR = bR;
+	}
+
+	public void bookServiceShow()
+	{
+		System.out.println("Inside BookService");
+	}
+
+	
+	
+	
+}

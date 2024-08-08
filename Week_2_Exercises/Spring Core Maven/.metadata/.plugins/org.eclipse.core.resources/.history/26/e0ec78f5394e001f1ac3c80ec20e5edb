@@ -1,0 +1,25 @@
+package com.library.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.library.repository.*;
+
+public class BookService {
+	
+	private BookRepository BR;
+	
+	@Autowired
+	public void setBR(BookRepository bR) {
+		System.out.println("Inside BookService : Setting BookRepository");
+		this.BR = bR;
+	}
+
+	public void bookServiceShow()
+	{
+		System.out.println("Inside BookService");
+	}
+
+	
+	
+	
+}
